@@ -374,9 +374,10 @@ div.VANNER img {
 
 
 #More {
-    margin: 0px 520px;
-    width: 100px;
+   width: 100px;
     height: 40px;
+   position: relative;
+   left: 520px; top: 150px;
     font-size: 16px;
     background-color: white;
 
