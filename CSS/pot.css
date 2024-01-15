@@ -216,6 +216,8 @@ div .slider img{width: 100%; height: 600px;}
 
 }
 
+.Boxnew1,.Boxnew2,.Boxnew3,.Boxnew4,.Boxnew5,.Boxnew6:hover{cursor: pointer;}
+
 /* 배너1 */
 
 div.VANNER {
@@ -271,6 +273,12 @@ div.VANNER img {
 .product ul li {
 
     padding: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product ul li a{
     color: black;
     font-weight: bold;
     font-size: 18px;

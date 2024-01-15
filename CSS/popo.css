@@ -332,6 +332,10 @@ float: left; position: relative ; margin: 20px 0px 0 10px; border-radius: 10px;
 
 }
 
+.Boxnew1,.Boxnew2,.Boxnew3,.Boxnew4,.Boxnew5,.Boxnew6:hover{cursor: pointer;}
+
+.Boxnew2 a:hover{color: #0066CC;}
+
 /* 악세사리 카테고리 */
 
 #iconlist {
