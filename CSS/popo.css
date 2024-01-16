@@ -18,6 +18,10 @@ body {
 }
 
 
+* body p{
+    font-family:"굴림";
+}
+
 header {
     width: 100%;
     height: 44px;
@@ -152,9 +156,10 @@ div.slider {
 
 #searchbox input {
     float: left;
+    width: 500px;
     font-size: 22px;
     margin-top: 17px;
-    color: #e7e7e7;
+    color: black;
     border: none;
     outline: none;
     text-overflow: ellipsis;
