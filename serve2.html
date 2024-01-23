@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서브페이지2</title>
+    <link href="CSS/serve2.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $(".icon6").click(function () {
+                $(this).toggleClass("rotate")
+                $(this).parents(".inforbar1").next().slideToggle()
+            })
+        })
+
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#serveimgbox :first-child").click(function(){
+                $("#serveimgbox img").removeClass("active");
+                $(this).addClass("active")
+                $("#mainimgbar").attr("src","img3/main1.png");
+            })
+            $("#serveimgbox :nth-child(2)").click(function(){
+                $("#serveimgbox img").removeClass("active");
+                $(this).addClass("active")
+                $("#mainimgbar").attr("src","img3/main2.png");
+            })
+            $("#serveimgbox :nth-child(3)").click(function(){
+                $("#serveimgbox img").removeClass("active");
+                $(this).addClass("active")
+                $("#mainimgbar").attr("src","img3/main3.png");
+            })
+            $("#serveimgbox :nth-child(4)").click(function(){
+                $("#serveimgbox img").removeClass("active");
+                $(this).addClass("active")
+                $("#mainimgbar").attr("src","img3/main4.png");
+            })
+            $("#serveimgbox :nth-child(5)").click(function(){
+                $("#serveimgbox img").removeClass("active");
+                $(this).addClass("active")
+                $("#mainimgbar").attr("src","img3/main5.png");
+            })
+        })
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" rel="메인페이지"><img src="img2/applelogo.png" alt="apple logo"></a></li>
+                <li><a href="index.html" rel="메인페이지">스토어</a></li>
+                <li><a href="index.html" rel="메인페이지">Mac</a></li>
+                <li><a href="index.html" rel="메인페이지">iPad</a></li>
+                <li><a href="index.html" rel="메인페이지">IPhone</a></li>
+                <li><a href="index.html" rel="메인페이지">Watch</a></li>
+                <li><a href="index.html" rel="메인페이지">AirPods</a></li>
+                <li><a href="index.html" rel="메인페이지">TV 및 홈</a></li>
+                <li><a href="index.html" rel="메인페이지">엔터테이먼트</a></li>
+                <li><a href="index.html" rel="메인페이지">액세서리</a></li>
+                <li><a href="index.html" rel="메인페이지">고객지원</a></li>
+                <li><a href="index.html" rel="메인페이지"><img src="img2/ICON9.png" alt="돋보기"> </a></li>
+                <li><a href="index.html" rel="메인페이지"><img src="img2/ICON10.png" alt="가방"></a></li>
+            </ul>
+        </nav>
+        <div id="nav2">
+            <div class="nav2">
+                <h3>액세서리</h3>
+                <p>모두검색</p>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <!-- 메인 메뉴 -->
+
+    <div class="mainful">
+        <div class="mainbox">
+            <div class="mainbox1">
+                <h1>
+                    iPad Pro11(4세대)및<br>
+                    iPad Air(5세대)용 Magic
+                    Keyboard - 한국어 - <br>화이트
+                </h1>
+                <p id="servebox1">\449,000</p>
+                <p id="servebox2">최대 12 개월 신용 카드 할부</p>
+                <p id="servebox3">색상 - 화이트<br>
+                    <img src="img3/button1.png" alt="버튼" id="button1">
+                    <img src="img3/button2.png" alt="버튼" id="button2">
+                </p>
+                <div class="choice">
+                    <p>크기</p>
+                    <select>
+                        <option>iPad Pro 11(4세대)</option>
+                        <option>iPad Pro 12.9(6세대)</option>
+                    </select>
+                </div>
+                <div class="choice">
+                    <p>언어</p>
+                    <select>
+                        <option>중국어</option>
+                        <option>일본어</option>
+                        <option>한국어</option>
+                        <option>영어</option>
+                    </select>
+                </div>
+                <div id="basket1">
+                    <img src="img3/icon2.png" alt="listimg">
+                    <p>픽업:<br><span>재고 확인</span></p>
+                </div>
+
+                <div id="basket2">
+                    <img src="img3/icon3.png" alt="listimg">
+                    <p>도착:<br><b>수 2024/01/10ㅡ무료 배송</b><br>
+                        <span>추가배송옵션확인</span>
+                    </p>
+                </div>
+                <div class="basketbutton">장바구니에 담기</div>
+
+                <div class="save">
+                    <b>시간이 좀 더 필요하신가요?</b><br>
+                    <span>선택한 기기를 관심 목록에 모두 저장해두고 언제든 살펴보던<br>곳부터 다시 이어 보세요.</span><br>
+                    <a href="#"><img src="img3/icon5.png" alt="저장">나중을 위해 저장</a>
+                </div>
+                <div class="center">
+                    <img src="img3/icon4.png" alt="고객센터">
+                    <div>
+                        <b>제품구입에 필요한 동무을 받아보세요.</b><br>
+                        <span>지금 채팅하기</span> 서비스를 이용하거나<br>
+                        080-330-8877에 전화로 문의하세요.
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="mainbox2">
+                <div id="mainimgbox">
+                    <img src="img3/main1.png" alt="메인이미지" id="mainimgbar">
+                </div>
+                <div id="serveimgbox">
+                    <img src="img3/main1.png" alt="서브이미지" class="active">
+                    <img src="img3/main2.png" alt="서브이미지">
+                    <img src="img3/main3.png" alt="서브이미지">
+                    <img src="img3/main4.png" alt="서브이미지">
+                    <img src="img3/main5.png" alt="서브이미지">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 서브 메뉴 -->
+
+    <div class="serve">
+        <div class="subbar">
+            <div id="serveimgbar">
+                <img src="img3/list2.png" alt="서브메뉴이미지">
+            </div>
+            <div id="serveimgbarchat">
+                <p>iPad Pro 및 iPad Air용 Smart Keyboard Folio를 찾고 계신가요?</p>
+                <a href="#">Smart KeyboardFolio 구입하기></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 제품 정보 -->
+
+    <div class="information">
+        <div class="inforbar">
+            <div class="inforbar1">
+                <button class="buttonin"><span>제품 정보</span></button>
+                <p><img src="img3/icon6.png" alt="화살표" class="icon6"></p>
+
+
+            </div>
+
+            <div id="inforfulbox1">
+                <div id="inforbox1">
+                    <div class="informanu1">
+                        <h3>개요</h3>
+                    </div>
+                    <div id="imformanu1">
+                        Magic Keyboard는 iPad Pro 11 및 iPad Air의 멋진 파트너입니다. 최고의 타이핑감을 선사하는 것은 물론,<br>
+                        iPadOS를 새로운 방식으로 활용하게 해주는 트랙패드, 패스스루 방식 충전을 지원하는 USB-C 포트, 그리고 앞뒤로<br>
+                        보호해주는 견고함까지 갖췄습니다. Magic Keyboard의 플로팅 캔틸레버 디자인 덕분에 iPad Pro 및 iPad Air를<br>
+                        자석식으로 쉽게 탈부착 할 수 있으며, 보기 가장 편안한 각도로 쉽고 매끄럽게 조절할 수도 있죠.<br>
+                    </div>
+
+
+                </div>
+
+                <div id="inforbox2">
+                    <div class="informanu2">
+                        <h3>하이라이트</h3>
+                    </div>
+                    <div id="imformanu2">
+
+                        눈이 편안한 백라이트 키 및 1mm의 키 트래블로 조용한 타이핑과 빠른 반응 속도를 선사하는 가위식 메커니즘.<br>
+                        iPadOS의 Multi‑Touch 제스처와 커서 기능 지원.<br>
+                        가장 편안한 각도로 쉽고 매끄럽게 조절 가능.<br>
+                        iPad Pro 및 iPad Air 충전 전용 USB-C 포트를 갖추고 있어, iPad 포트에 다른 액세서리를 자유롭게 연결해 사용 가능.<br>
+                        접으면 케이스가 되어 iPad Pro 및 iPad Air를 들고 다닐 때 기기 앞뒷면을 안전하게 보호.<br>
+                    </div>
+                </div>
+
+                <div id="inforbox3">
+                    <div class="informanu3">
+                        <h3>시스템요구사항</h3>
+                    </div>
+                    <div id="imformanu3">
+                        iPadOS 14.5 이후 버전이 설치된 iPad Pro 11(1세대, 2세대, 3세대 또는 4세대) 또는 iPad Air(4세대 또는 5세대).<br>
+                    </div>
+                </div>
+
+            </div>
+            <div class="inforbar1">
+                <button class="buttonin"><span>호환성</span></button>
+                <p><img src="img3/icon6.png" alt="화살표" class="icon6"></p>
+
+            </div>
+            <div id="inforbox4">
+                <div class="informanu4">
+                    <div class="informanuh3"></div>
+                    <div id="inforlist">
+                        <ul>
+                            <h3>iPad 모델</h3>
+                            <li>iPad Pro 11(4세대)</li>
+                            <li>iPad Pro 11(3세대)</li>
+                            <li>iPad Pro 11(2세대)</li>
+                            <li>iPad Pro 11(1세대)</li>
+                            <li>iPad Air(5세대)</li>
+                            <li>iPad Air(4세대)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 제품 추천 리스트 -->
+
+        <div class="itemlist">
+            <div class="listname">
+                <h1>마음에 들 만한 액세서리</h1>
+            </div>
+            <div class="listbox">
+                <div class="list">
+                    <img src="img3/list1.png" alt="악세사리리스트">
+                    <div class="listchat">
+                        <span>무료 각인</span>
+                        <span>Apple Pencil(2세대)</span><br>
+                        <span style="font-family:굴림;">\195,000</span>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="img3/list2.png" alt="악세사리리스트">
+                    <div class="listchat">
+                        <span></span><br>
+                        <span>iPad Pro 11(세대)및 iPad<br>
+                            Air(5세대)용 Smart Keyboard...</span>
+                        <span style="font-family:굴림;">\274,000</span>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="img3/list3.png" alt="악세사리리스트">
+                    <div class="listchat">
+                        <span></span><br>
+                        <span>iPad(10세대)용 Magic Keyboard<br>
+                            Folio - 한국어</span>
+                        <span style="font-family:굴림;">\380,000</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="listnumber"></div>
+        </div>
+
+
+        <!-- footer 라인 -->
+
+        <footer>
+            <div class="footerbox1">
+                1. Magic Keyboard 판매는 재고에 한합니다.<br>
+                2. Magic Keyboard는 별도로 판매됩니다. 11형 iPad Pro(1세대 이후 모델), 12.9형 iPad Pro (3세대 이후 모델), iPad Air(4세대 이후 모델)와
+                호환됩니다.<br><br>
+                사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제 2011-서울강남-00810호<br>
+                대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517<br>
+                대표전화 : 080-330-8877 | 팩스 : 02-6928-0000
+            </div>
+            <div class="footerbox2">
+                <ul>
+                    <li><span><img src="img2/applelogo.png" alt="애플로고"></span></li>
+                    <li>></li>
+                    <li>모든 액세서리</li>
+                    <li>></li>
+                    <li>케이스&보호장비</li>
+                    <li>></li>
+                    <li> iPad Pro 11(4세대) 및 iPad Air(5세대)용 Magic Keyboard - 한국어 - 블랙</li>
+                </ul>
+                <div class="footerlist">
+                    <ul>
+                        <li><span>쇼핑 및 알아보기</span></li>
+                        <li>Store</li>
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV및홈</li>
+                        <li>AirTag</li>
+                        <li>액세서리</li>
+                        <li><span>Apple 지갑</span></li>
+                        <li>지갑</li>
+                    </ul>
+                </div>
+
+                <div class="footerlist">
+                    <ul>
+                        <li><span>계정</span></li>
+                        <li>Apple ID 관리</li>
+                        <li>Apple Store 계정</li>
+                        <li>iCloud.com</li>
+                        <li></li>
+                        <li><span>엔터테이먼트</span></li>
+                        <li>Apple One</li>
+                        <li>Apple TV+</li>
+                        <li>Apple Music</li>
+                        <li>Apple Arcade</li>
+                        <li>Apple Podcasts</li>
+                        <li>Apple Books</li>
+                        <li>App Store</li>
+                    </ul>
+
+                </div>
+
+                <div class="footerlist">
+                    <ul>
+                        <li><span>Apple Store</span></li>
+                        <li>매장 찾기</li>
+                        <li>Genius Bar</li>
+                        <li>Today at Apple</li>
+                        <li>Apple 캠프</li>
+                        <li>Apple Store 앱</li>
+                        <li>인증 리퍼비쉬 제품</li>
+                        <li>Apple Trade ln</li>
+                        <li>할부 방식</li>
+                        <li>주문 상태</li>
+                        <li>쇼핑 도움말</li>
+                    </ul>
+                </div>
+
+                <div class="footerlist">
+                    <ul>
+                        <li><span>비즈니스</span></li>
+                        <li>Apple과 비즈니스</li>
+                        <li>비즈니스를 위한 제품 쇼핑하기</li>
+                        <li><span>교육</span></li>
+                        <li>Apple 그리고 교육</li>
+                        <li>초중고용 제품 쇼핑하기</li>
+                        <li>대학 생활을 위한 제품 쇼핑하기</li>
+                    </ul>
+                </div>
+
+                <div class="footerlist">
+                    <ul>
+                        <li>Apple의 가치관</li>
+                        <li>손쉬운 사용</li>
+                        <li>환경</li>
+                        <li>개인정보 보호</li>
+                        <li>협력업체에 대한 책임</li>
+                        <li></li>
+                        <li><span>Apple 정보</span></li>
+                        <li>Newsroom</li>
+                        <li>Apple 리더십</li>
+                        <li>채용 안내</li>
+                        <li>윤리 및 규정 준수</li>
+                        <li>이벤트</li>
+                        <li>일자리 창출</li>
+                        <li>Apple 연락처</li>
+                    </ul>
+                </div>
+
+                <div class="footerbox3">
+                    <p>다양한 쇼핑 방법:<span>Apple Store를 방문</span>하거나, <span>리셀러</span>를 찾아보거나, 080-330-8877번으로 전화하세요.</p>
+                </div>
+                <div class="footerbox4">
+
+                    <ul id>
+                        Copyright © 2024 Apple Inc. 모든 권리 보유.
+                        <li></li>
+                        <li>개인정보 방침</li>
+                        <li>|</li>
+                        <li>약관</li>
+                        <li>|</li>
+                        <li>판매 및 환불</li>
+                        <li>|</li>
+                        <li>법적 고지</li>
+                        <li>|</li>
+                        <li>사이트 맵</li>
+                    </ul>
+                    
+                </div>
+
+
+
+            </div>
+
+
+
+        </footer>
+
+
+</body>
+
+</html>

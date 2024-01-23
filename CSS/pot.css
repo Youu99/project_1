@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patua+One&family=Roboto+Condensed:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+body {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Patua One', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*header*/
+
+
+div.top {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #666;
+    position: relative;
+}
+
+
+
+header {
+    width: 1170px;
+    height: 72px;
+    
+    margin: 0 auto;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#logo {
+    width: 190px;
+    height: 70px;
+    float: left;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+
+#logo img {
+    float: right;
+    margin: -5px 0 0 0;
+}
+
+nav {
+    width: 700px;
+    height: 70px;
+    margin: 10px auto;
+}
+
+ul {
+    list-style: none;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    padding: 20px;
+}
+
+ul li a:hover {
+    color: rgb(248, 114, 114);
+}
+
+
+
+.icon img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 15px;
+    border: 1px solid transparent;
+}
+
+
+#icon1:hover {
+    cursor: pointer;
+    border: 1px solid #7e7e7e;
+}
+
+#icon2:hover {
+    cursor: pointer;
+    border: 1px solid #7e7e7e;
+}
+
+
+div .slider {
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div .slider img{width: 100%; height: 600px;}
+
+.slider:hover {
+    cursor: pointer;
+}
+
+
+/* Shop  리스트1 */
+.menu1 {
+    width: 1170px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.list1 div {
+    background-color: #f5f5f5;
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin: 50px 5px;
+}
+
+.list1 img {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    width: 80%;
+    height: 90%;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.list1 img:hover {
+    transform: scale(0.9);
+}
+
+#ap {
+    font-size: 30px;
+    text-align: center;
+}
+
+.menu2 {
+    width: 1170px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+.menu2 .menubox2 {
+    width: 280px;
+    height: 350px;
+    float: left;
+    margin: 50px 5px;
+}
+
+.menubox2 div p{position: relative; top: 80px;}
+
+.list2 div {
+    background-color: #f5f5f5;
+    width: 280px;
+    height: 280px;
+
+}
+
+.list2 #ap img {
+    width: 60px;
+    vertical-align: middle;
+
+}
+
+.list2 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.list2 img:hover {
+    cursor: pointer;
+}
+
+.list2 p {
+    text-align: center;
+    margin: 0px 5px 0 0px;
+    font-size: 20px;
+}
+
+.list2 p:hover {
+    text-decoration: underline #616161;
+    cursor: pointer;
+}
+
+.list2 #ap:hover {
+    text-decoration: none;
+}
+
+.list2 p span {
+    font-family: "굴림";
+    font-size: 16px;
+}
+
+.list2 p img {
+    width: 40px;
+    text-align: right;
+    vertical-align: middle;
+
+}
+
+
+
+/* 배너1 */
+
+div.VANNER {
+    width: 100%;
+    height: 460px;
+    margin: 40px auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div.VANNER img {
+    height: 460px;
+}
+
+.VANNER img {
+    width: 100%;
+    height: 340px;
+    border: 1px solid #ddd;
+}
+
+.VANNER:hover {
+    cursor: pointer;
+}
+
+/* 리스트 2 */
+.product {
+    width: 700px;
+    height: 70px;
+    float: left;
+    margin-top: 30px;
+}
+
+.product ul li:hover {
+    cursor: pointer;
+}
+
+.product ul {
+    list-style: none;
+    font-weight: 600;
+    overflow: hidden;
+    float: left;
+}
+
+#ad {
+    font-size: 24px;
+    margin-top: -5px;
+}
+
+#ac {
+    margin-top: -2px;
+}
+
+.product ul li {
+
+    padding: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product ul li a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.menu3 {
+
+    width: 1170px;
+    height: 610px;
+    margin: 0 auto;
+
+}
+
+.list3 {
+    clear: both;
+}
+
+.menu3 .menubox3 {
+    width: 270px;
+    height: 300px;
+    float: left;
+    margin: 80px 10px 0 10px;
+
+}
+
+
+.list3 div {
+    background-color: #f5f5f5;
+    width: 270px;
+    height: 300px;
+
+}
+
+.list3 div p {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.list3 p:hover {
+    text-decoration: underline #616161;
+    cursor: pointer;
+}
+
+.list3 div p span {
+    font-size: 18px;
+    font-family: "굴림";
+}
+
+
+
+.menu4 {
+    width: 1170px;
+    height: 535px;
+    margin: 0 auto;
+
+}
+
+.menubox4 {
+    width: 270px;
+    height: 420px;
+    float: left;
+    margin: 40px 10px 0 10px;
+}
+
+.menu4 div {
+    background-color: #f5f5f5;
+    width: 270px;
+    height: 280px;
+
+}
+
+.menu4 a img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu4 div p {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.menu4 p:hover {
+    text-decoration: underline #616161;
+    cursor: pointer;
+}
+
+.menu4 div p span {
+    font-size: 18px;
+    font-family: "굴림";
+}
+
+
+
+#More {
+   width: 100px;
+    height: 40px;
+   position: relative;
+   left: 520px; top: 150px;
+    font-size: 16px;
+    background-color: white;
+
+
+}
+
+#More:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+/* 배너 2 */
+
+div.VANNER2 {
+    width: 100%;
+    height: 460px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+div.VANNER2 img {
+    height: 460px;
+}
+
+.VANNER2 img {
+    width: 100%;
+    height: 340px;
+    border: 1px solid #ddd;
+}
+
+.VANNER2:hover {
+    cursor: pointer;
+}
+
+/* NEU LIST */
+#newMenu {
+    width: 1170px;
+    height: 820px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+#menu5 div {
+    width: 350px;
+    height: 530px;
+    margin: 100px 20px;
+    float: left;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #919191;
+    overflow: hidden;
+}
+
+#menu5 a img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#menu5 a img:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 30px;
+    color: #747474;
+    font-weight: bold;
+}
+
+#newMenu h2 span {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 160px;
+    background-color: gray;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.chatbox {
+    width: 1170px;
+    height: 100%;
+    margin: 0px auto;
+    color: rgb(209, 209, 209);
+
+}
+
+.chatbox p{margin-top: 10px;}
+
